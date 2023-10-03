@@ -1,1 +1,1 @@
-Bye, world!
+## Wai Taing Lam's Lab Report ##
