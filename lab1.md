@@ -13,5 +13,7 @@
 
 2. With a path to a directory as an argument
 
+<img width="508" alt="Screen Shot 2023-10-03 at 11 44 51 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/a5fc464e-e88d-4a1e-8de0-777b145682cb">
+
 
 3. With a path to a file as an argument
