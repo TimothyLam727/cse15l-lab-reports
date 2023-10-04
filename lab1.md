@@ -1,4 +1,4 @@
-# Lab Report 1
+<img width="423" alt="Screen Shot 2023-10-04 at 4 21 09 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/13b9f091-240f-4f74-86da-2a1406c05170"># Lab Report 1
 
 ## cd
 
@@ -8,7 +8,8 @@
 <img width="427" alt="Screen Shot 2023-10-03 at 11 28 34 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/dd030cd3-f6fb-49e3-96cf-23ce929920d9">
 
    * There was no output after the command was run
-   * It is reasonable to not receive an output after running the command since the command ```cd``` is only used to change the directory and 
+   * It is reasonable to not receive an output after running the command since the command ```cd``` is only used to change the directory 
+     and 
      wouldn't return or produce any output
    * The working directory was **/home** before the command was run, and remained the same when the command was run
    * There was no argument in the command line. There wasn't an argument (targeted directory) in the command line that the command asked 
@@ -33,5 +34,18 @@
 <img width="662" alt="Screen Shot 2023-10-03 at 9 16 11 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/d5ce0ee1-9e57-4f1f-9b5e-f119c97960c5">
 
    * There was an output saying ```bash: cd: Hello.java: No such file or directory** when the command was run```
-   * 
+   * The command told the terminal to change the working directory to the file **Hello.java**
+   * Since **Hello.java** is only a file, it is an error to ask the terminal to change the current working directory to a file by the 
+     command ```cd```
 
+
+---
+
+## ls
+
+
+1) With no arguments
+
+<img width="423" alt="Screen Shot 2023-10-04 at 4 21 09 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/66f0193d-3138-4600-970d-62190f80f539">
+
+   * The output by this command was ```lecture1```
