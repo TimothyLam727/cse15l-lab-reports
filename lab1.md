@@ -32,6 +32,6 @@
 
 <img width="662" alt="Screen Shot 2023-10-03 at 9 16 11 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/d5ce0ee1-9e57-4f1f-9b5e-f119c97960c5">
 
-   * There was an output saying **bash: cd: Hello.java: No such file or directory** when the command was run
+   * There was an output saying ```bash: cd: Hello.java: No such file or directory** when the command was run```
    * 
 
