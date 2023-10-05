@@ -93,5 +93,33 @@
 
 ![Screenshot 2023-10-04 231427](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/ab3be205-af45-4b1e-a40f-347d4b59cb9c)
 
+  * There was no output by the command line ```cat```
+  * The working directory was **/home**
+  * One interesting result is that the prompt disappeared, and when I typed something into the terminal, it printed out    
+    whatever I typed
+  * The command ```cat``` print the contents of one or more fiels given by the arguments. Since there were no arguments in 
+    the command line, the terminal was told to print something but there wasn't any target, resulting in an error
+
+
+
+ > 2) With a path to a directory as an argument
+
+![Screenshot 2023-10-05 001333](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/68773ddb-f05b-4cf6-acb8-ef0d002676db)
+
+  * The output by the commands was ```cat: lecture1: Is a directory```
+  * The working directory was **/home**
+  * Since ```cat``` can only print out the contents of a file, puting a directory as the argument wouldn't result a normal 
+    output as there are no contents in a directory, resulting in an error message
+
+
+
+> 3) With a path to a file as an argument
+
+![Screenshot 2023-10-05 001735](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/4198b8ca-4bc6-4aea-9df5-61ec77d1d853)
+
+   * The output by the commands was the java code inside the **Hello.java** file
+   * The working directory was **/home**
+   * Putting **lecture1/Hello.java** as the argument told the terminal to print out the contents of 
+     **/home/lecture/Hello.java**
 
 
