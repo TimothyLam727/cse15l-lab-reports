@@ -38,8 +38,8 @@
 
    * There was an output saying ```bash: cd: Hello.java: No such file or directory** when the command was run```
    * The command told the terminal to change the working directory to the file **Hello.java**
-   * Since **Hello.java** is only a file, it is an error to ask the terminal to change the current working directory **/home** to a file by the 
-     command ```cd```
+   * Since **Hello.java** is only a file, it is an error to ask the terminal to change the current working directory **/home** to a file by 
+     the command ```cd```
 
 
 ---
@@ -69,4 +69,26 @@
    * The working directory was **/home**
    * The absolute path of the given path **lecture1** is **/home/lecture1**.
    * There is a folder **messages**, and three files **Hello.class**, **Hello.java** and **README** insides the folder **lecture1** 
-   * The terminal was told to list the files and folders in the given path **lecture1**, which is **/home/lecture1**. 
+   * The terminal was told to list the files and folders in the given path **lecture1**, which is **/home/lecture1**.
+
+
+
+> 3) With a path to a file as an argument
+
+<img width="655" alt="Screen Shot 2023-10-04 at 4 54 27 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/ada4d7ac-756a-4e89-aa0c-500c0c9db76c">
+
+   * The output was ```/home/lecture1/Hello.java```
+   * The working directory was **/home**
+   * The given path was **/home/lecture1/Hello.java**
+   * Since there aren't any files or folders inside **Hello.java**, the terminal couldn't really print anything from **Hello.java**, and 
+     resulted in printing the absolute path of **Hello.java**
+
+
+---
+
+## cat
+
+
+> 1) With no arguments
+
+
