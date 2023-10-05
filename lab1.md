@@ -115,7 +115,7 @@
 
 > 3) With a path to a file as an argument
 
-![Screenshot 2023-10-05 001735](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/4198b8ca-4bc6-4aea-9df5-61ec77d1d853)
+![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/476d3d85-0f24-41b3-82c7-7a14f76497ac)
 
    * The output by the commands was the java code inside the **Hello.java** file
    * The working directory was **/home**
