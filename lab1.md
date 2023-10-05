@@ -91,4 +91,7 @@
 
 > 1) With no arguments
 
+![Screenshot 2023-10-04 231427](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/ab3be205-af45-4b1e-a40f-347d4b59cb9c)
+
+
 
