@@ -1,4 +1,4 @@
-<img width="423" alt="Screen Shot 2023-10-04 at 4 21 09 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/13b9f091-240f-4f74-86da-2a1406c05170"># Lab Report 1
+# Lab Report 1
 
 ## cd
 
