@@ -9,12 +9,11 @@ Wai Taing Lam A18089070
 
    * The working directory was **/home**
    * There was no output after the command was run
-   * It is reasonable to not receive an output after running the command since the command ```cd``` is only used to change the directory 
-     and 
-     wouldn't return or produce any output
    * The working directory was **/home** before the command was run, and remained the same when the command was run
    * There was no argument in the command line. There wasn't an argument (targeted directory) in the command line that the command asked 
      the terminal to change to, therefore, the terminal wouldn't change the directory and nothing changed
+   * This is not an error. The command ```cd``` is used to switch the current working directory to the given path which is provided in the argument. And if an argument is not provided, the terminal autofill the argument as the current working directory. Therefore, the terminal is just switching the current working directory **/home** to **/home** and nothing has changed.
+   * Besides, it is also not an error that no output is printed after the running the command since ```cd``` only changes the working directory and doesn't return anything.
 
 
 
@@ -23,11 +22,12 @@ Wai Taing Lam A18089070
 <img width="508" alt="Screen Shot 2023-10-03 at 11 44 51 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/a5fc464e-e88d-4a1e-8de0-777b145682cb">
 
    * There was also no output after the command was run
-   * Same reason that there was no output since ```cd``` wouldn't return or produce anything but change the directory
    * However, the prompt changed. It changed from **[user@sahara ~]$** to **[user@sahara ~/lecture1]$**
    * The working directory was changed from **/home** to **/home/lecture1**
    * Since the argument **lecture1** was included in the command line, the terminal was told to change the directory to **lecture1**. Thus, 
      the final working directory was **home/lecture1**
+   * Same reason that there was no output since ```cd``` wouldn't return or produce anything but change the directory
+   * It is not an error that no output is printed after the running the command since ```cd``` only changes the working directory and doesn't return anything.
 
 
 
@@ -57,7 +57,7 @@ Wai Taing Lam A18089070
    * Since there were no arguments in the command line, the terminal took the working directory **/home** as the path and printed the files 
      and folders inside it
    * **lecture1** was the only folder inside the working directory **/home**, therefore, the terminal printed out ```lecture1```
-
+   * This is not an error because the terminal autofill the empty arugment with the current working directory, which is **/home**. Therefore, the terminal prints out the files and folders of **/home**.
 
 
 
@@ -70,6 +70,7 @@ Wai Taing Lam A18089070
    * The absolute path of the given path **lecture1** is **/home/lecture1**.
    * There is a folder **messages**, and three files **Hello.class**, **Hello.java** and **README** insides the folder **lecture1** 
    * The terminal was told to list the files and folders in the given path **lecture1**, which is **/home/lecture1**.
+   * This is not an error and is absolutely legal. **/home/lecture1** is the given path that tells the terminal to print out its content.
 
 
 
@@ -82,6 +83,7 @@ Wai Taing Lam A18089070
    * The given path was **/home/lecture1/Hello.java**
    * Since there aren't any files or folders inside **Hello.java**, the terminal couldn't really print anything from **Hello.java**, and 
      resulted in printing the absolute path of **Hello.java**
+   * I believe this is an error. It is not quite right to put a path of a file as an argument of ```ls```. ```ls``` is used to print the files and folders of the targeted directory. ```/home/lecture1/Hello.java``` is not a directory but a file. It contains no files nor folders, therefore, the terminal wouldn't be able to print out the "content" of this file, and return the absolute path of the file.
 
 
 ---
