@@ -43,9 +43,14 @@ class StringServer {
     }
 }
 ```
-1.
+1. **/add-message?s=Hello**
 ![Screenshot 2023-10-18 233959](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/3a92fca5-825a-4ecb-9acd-36dc4e8567c7)
-2.
+- The handleRequest method is called after adding **/add-message?s=Hello** behind the url.
+- The argument of the method handleRequest is the url inserted. In this case, the url is **_https://0-0-0-0-4000-8ilqbpp6prfk5vmdhmhguv24io.us.edusercontent.com/add-message?s=Hello_**
+- The integer _num_ in the program counts the number of added messages in the server. Tthe value of _num_ is incremented by one from zero after the inserting the url above.
+- The message which is represneted in the query after the "=" is stored into the String named _str2_. Then _str2_ is added behind the String _strOutput_ which stores all previous input from the url, and the program returns _strOutput_.
+
+2. **/add-message?s=How are you?**
 ![Screenshot 2023-10-18 234027](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/4d237133-5903-483d-be52-1a1baf469c78)
 
 
