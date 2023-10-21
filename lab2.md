@@ -79,4 +79,5 @@ Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
 
 ## Part 3
 Something I have learned from lab in week 2 is how to access the ieng6 and pi-cluster server using the ssh command, and how to interact with server by changing some of the parts of the url.
-In week 3's lab, I have learned how to access the remote server through VScode and how to set up a public and private key to login to my ieng6 account faster. I knew that we could set up a key to login to the remote server without typing the password, but I didn't know that there were two kinds of key, which is the public and the private one.
+
+In week 3's lab, I have learned how to access the remote server through VScode and how to set up a public and private key to login to my ieng6 account faster. I knew that we could set up a key to login to the remote server without typing the password, but I didn't know that there were two kinds of key, which is the public and the private one. Yet, I am still confused about why do we need a public and a private key, and what are their differences.
