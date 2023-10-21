@@ -48,14 +48,18 @@ class StringServer {
 - The handleRequest method is called after adding **/add-message?s=Hello** behind the url.
 - The argument of the method handleRequest is the url inserted. In this case, the url is **_https://0-0-0-0-4000-8ilqbpp6prfk5vmdhmhguv24io.us.edusercontent.com/add-message?s=Hello_**
 - The integer _num_ in the program counts the number of added messages in the server. Tthe value of _num_ is incremented by one from zero after the inserting the url above.
-- The message which is represneted in the query after the "=" is stored into the String named _str2_. Then _str2_ is added behind the String _strOutput_ which stores all previous input from the url. Since this is the first time adding message through the url, _strOutput_ was an empty string and was added the string value _Hello_ into it.
+- The message which is represneted in the query after the "=" is stored into the String named _str2_. The string value **Hello** is inserted into _str2_. Then _str2_ is added behind the String _strOutput_ which stores all previous input from the url. Since this is the first time adding message through the url, _strOutput_ was an empty string and was added the string value _Hello_ into it.
 - Then, the program return the number of time add message has run and the output string _strOutput_.
 - Therefore, the web server prints out the line **1. Hello**
 
 2. **/add-message?s=How are you?**
 ![Screenshot 2023-10-18 234027](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/4d237133-5903-483d-be52-1a1baf469c78)
-
-
+- The **handleRequest** method is called after adding **/add-message?s=How are you?** behind the url.
+- The argument of the method **handleRequest** is the url inserted, which is **_https://0-0-0-0-4000-8ilqbpp6prfk5vmdhmhguv24io.us.edusercontent.com/add-message?s=How are you?_**
+- Since the integer _num_ in the program counts the number of added messages in the server and its value is 1 after the running the request above, the value of _num_ is incremented by one in this call from one to two.
+- Note: since url doesn't allow space in it, it automatically converts the space into %20, which is +. 
+- The message which is represneted in the query after the "=" is stored into the String named _str2_, which is **How+are+you?**. Then, every + sign in the string is converted into space to retain the original input string. Next, _str2_ is added behind the String _strOutput_ which stores all previous input from the url. Since this is the second time adding message through the url, _strOutput_ kept its string value **Hello** from the first call and inserted the new string value **How are you?** to the next line.
+- Therefore, _strOutput_ has the string value **1. Hello\n2. How are you?\n** and the web server prints out two lines of string output.
 ## Part 2
 
 
