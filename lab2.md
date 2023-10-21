@@ -61,6 +61,10 @@ class StringServer {
 - The message which is represneted in the query after the "=" is stored into the String named _str2_, which is **How+are+you?**. Then, every + sign in the string is converted into space to retain the original input string. Next, _str2_ is added behind the String _strOutput_ which stores all previous input from the url. Since this is the second time adding message through the url, _strOutput_ kept its string value **Hello** from the first call and inserted the new string value **How are you?** to the next line.
 - Therefore, _strOutput_ has the string value **1. Hello\n2. How are you?\n** and the web server prints out two lines of string output.
 ## Part 2
+Screenshot of logging in into ieng6 without being asked for a password:
+<img width="950" alt="Screen Shot 2023-10-21 at 12 51 34 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/2da1efd6-bfbb-4e00-8a2f-22042e652058">
+<img width="828" alt="Screen Shot 2023-10-21 at 12 51 52 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/2ec6e2ca-c67d-4bd0-822d-4d4d8fc9119a">
+
 
 
 ## Part 3
