@@ -67,7 +67,8 @@ Screenshot of logging in into ieng6 without being asked for a password:
 <img width="828" alt="Screen Shot 2023-10-21 at 12 51 52 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/2ec6e2ca-c67d-4bd0-822d-4d4d8fc9119a">
 
 
-Content of my .ssh directory:
+Screenshot of content of my .ssh directory:
+
 <img width="695" alt="Screen Shot 2023-10-21 at 12 55 44 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/3d14a423-779a-459a-861e-83c5e551ed81">
 
 
