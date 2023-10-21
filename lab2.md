@@ -44,6 +44,7 @@ class StringServer {
 }
 ```
 1. **/add-message?s=Hello**
+
 ![Screenshot 2023-10-18 233959](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/3a92fca5-825a-4ecb-9acd-36dc4e8567c7)
 - The handleRequest method is called after adding **/add-message?s=Hello** behind the url.
 - The argument of the method handleRequest is the url inserted. In this case, the url is **_https://0-0-0-0-4000-8ilqbpp6prfk5vmdhmhguv24io.us.edusercontent.com/add-message?s=Hello_**
@@ -65,6 +66,14 @@ Screenshot of logging in into ieng6 without being asked for a password:
 <img width="950" alt="Screen Shot 2023-10-21 at 12 51 34 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/2da1efd6-bfbb-4e00-8a2f-22042e652058">
 <img width="828" alt="Screen Shot 2023-10-21 at 12 51 52 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/2ec6e2ca-c67d-4bd0-822d-4d4d8fc9119a">
 
+
+Content of my .ssh directory:
+<img width="695" alt="Screen Shot 2023-10-21 at 12 55 44 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/3d14a423-779a-459a-861e-83c5e551ed81">
+
+
+Path to the private key of my SSH key: **~/.ssh/id_rsa**
+
+Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
 
 
 ## Part 3
