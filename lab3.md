@@ -32,6 +32,7 @@ The program should reverse the order of the input array. In this case, the input
 
 
 **Test Run**
+
 ![Screenshot 2023-10-31 214321](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/719e22d3-e8a2-4f0b-9157-4e87f780fa09)
 
 ## Part 1
