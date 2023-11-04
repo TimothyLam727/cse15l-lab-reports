@@ -123,6 +123,7 @@ Lines including the word "United", "with", "committed" and more are not included
 
 * This command option is useful when we want to find something that matches exactly what we want. For example, if we are looking for lines that contain the word "foo", and we don't want anything else such as "foo123", this command option is useful to exclude every other possibility.
 
+
 3. -R
 
 ```grep -R <str> <dir>``` prints all the lines from the files of the directory that contain the string.
@@ -142,3 +143,30 @@ This command line prints all the lines from files in the directory _technical/bi
 <img width="755" alt="Screen Shot 2023-11-04 at 3 32 13 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/e50fb560-e9ee-4746-b821-f62fc8b6b806">
 
 Lines containing the string "911" from multiple files in the _technical/biomed_ directory are printed.
+
+* This command option is useful when looking for lines containing specific words in multiple files in a directory.
+* Note: if we insert a file instead of a directory, the command line works as a normal ```grep``` command.
+
+
+4. -c
+
+```grep -c <str> <dir>``` counts and prints the number of lines containing the word in the file.
+
+Example 1:
+```grep -c "America" technical/plos/journal.pbio.0020001.txt```
+This command counts and prints the number of line containing the word "America" in the file _technical/plos/journal.pbio.0020001.txt_.
+
+<img width="827" alt="Screen Shot 2023-11-04 at 3 46 52 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c12b025f-f600-4941-9a53-ddce4f5c320d">
+
+There are 42 lines containing the word "America".
+
+Example 2:
+```grep -c "older" technical/biomed/1468-6708-3-1.txt```
+This command counts and prints the number of line containing the word "older" in the file _technical/biomed/1468-6708-3-1.txt_.
+
+<img width="723" alt="Screen Shot 2023-11-04 at 3 48 53 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/e575fe87-0bc2-4d51-be64-e28d7eaf9661">
+
+There are 21 lines containing the word "older".
+
+* This command option is useful for statistical purpose, counting the number of lines containing the string.
+* Note: this command option counts the number of lines not number of appearance of the string.
