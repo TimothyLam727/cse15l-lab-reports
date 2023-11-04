@@ -84,6 +84,7 @@ Two changes are made in the new code. First is storing the reversed order of ```
 
 Example 1:
 ```grep -i "Office" technical/government/Gen_Account_Office/og98030.txt```
+
 This command line prints all lines from _technical/government/Gen_Account_Office/og98030.txt_ that exclude the word "Office".
 
 <img width="708" alt="Screen Shot 2023-11-04 at 2 17 37 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/3251a04c-eb16-4d73-a2f7-f4817a0781d3">
@@ -92,6 +93,7 @@ The line "Office of the General Counsel" is not appeared in the output.
 
 Example 2:
 ```grep -v "whistleblowing" technical/plos/pmed.0020281.txt```
+
 This command line prints all lines from _technical/plos/pmed.0020281.txt_ that exclude the word "whistleblowing".
 
 <img width="808" alt="Screen Shot 2023-11-04 at 2 26 22 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/506575a6-0d0e-4028-afaa-553a37783484">
@@ -107,6 +109,7 @@ The line "whistleblowing—as discussed, in part, in" and "For me, whistleblowin
 
 Example 1:
 ```grep -w "to" technical/plos/pmed.0020237.txt```
+
 This command line prints all lines containing and matching exactly the word "to" from the file _technical/plos/pmed.0020237.txt_.
 
 <img width="784" alt="Screen Shot 2023-11-04 at 2 37 57 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/cbff8868-e78f-4d8f-93c4-47aa91b23ae9">
@@ -115,6 +118,7 @@ Lines including the word "low" and "regulatory" and more are not included in the
 
 Example 2:
 ```grep -w "it" technical/911report/preface.txt```
+
 This command line prints all lines containing and matching exactly the word "it" from the file _technical/911report/preface.txt_.
 
 <img width="899" alt="Screen Shot 2023-11-04 at 2 44 47 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/4be9c097-3752-41ed-a4cd-3b7934a381f6">
@@ -130,6 +134,7 @@ Lines including the word "United", "with", "committed" and more are not included
 
 Example 1:
 ```grep -R " line 911" technical/911report```
+
 This command prints all the lines from file in the directory _technical/911report_ that contain the string "911".
 
 <img width="999" alt="Screen Shot 2023-11-04 at 3 26 37 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/a94732d7-07ac-455e-a774-b6c1cfa053b4">
@@ -138,6 +143,7 @@ Lines from _technical/911report/chapter-9.txt_ and _technical/911report/chapter-
 
 Example 2:
 ```grep -R "911" technical/biomed```
+
 This command line prints all the lines from files in the directory _technical/biomed_ that contain the string "911".
 
 <img width="755" alt="Screen Shot 2023-11-04 at 3 32 13 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/e50fb560-e9ee-4746-b821-f62fc8b6b806">
@@ -154,6 +160,7 @@ Lines containing the string "911" from multiple files in the _technical/biomed_ 
 
 Example 1:
 ```grep -c "America" technical/plos/journal.pbio.0020001.txt```
+
 This command counts and prints the number of line containing the word "America" in the file _technical/plos/journal.pbio.0020001.txt_.
 
 <img width="827" alt="Screen Shot 2023-11-04 at 3 46 52 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c12b025f-f600-4941-9a53-ddce4f5c320d">
@@ -162,6 +169,7 @@ There are 42 lines containing the word "America".
 
 Example 2:
 ```grep -c "older" technical/biomed/1468-6708-3-1.txt```
+
 This command counts and prints the number of line containing the word "older" in the file _technical/biomed/1468-6708-3-1.txt_.
 
 <img width="723" alt="Screen Shot 2023-11-04 at 3 48 53 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/e575fe87-0bc2-4d51-be64-e28d7eaf9661">
