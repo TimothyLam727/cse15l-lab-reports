@@ -69,9 +69,9 @@ There is no symptom in the second test and it runs "perfectly."
   }
 ```
 
-The array ```newArray``` was created but never used to store the reversed array. The error was storing elements from ```newArrray``` which is an empty array into ```arr``` which stores the original array, and return ```arr```. What the original code did is coying the empty array ```newArrray``` in reversed order to ```arr```, and therefore, the function would just return an empty array.
+The array ```newArray``` was created but never used to store the reversed array. The error was storing elements from ```newArrray``` which is an empty array, into ```arr``` which stores the original array, and return ```arr```. What the original code did is coying the empty array ```newArrray``` in reversed order to ```arr```, and therefore, the function would just return an empty array.
 
-Two changes are made in the new code. First is storing the reversed order of ```arr``` to the targeted array ```newArray```. Here, the elements from the original array ```arr``` won't be messed up and everything is stored correctly to ```newArray``` in backward. Secondly, the function returns the modified new array ```newArray``` instead of the orignial array. Overall, the changes allow the function to store the reversed array into a temporary array and return the temporary array.
+Two changes are made in the new code. First is storing the reversed order of ```arr``` to the targeted array ```newArray```. Here, the elements from the original array ```arr``` won't be messed up and everything is stored correctly to ```newArray``` in backward. Secondly, the function returns the modified new array ```newArray``` instead of the original array. Overall, the changes allow the function to store the reversed array into a temporary array and return the temporary array.
 
 
 ## Part 2
@@ -84,9 +84,16 @@ Two changes are made in the new code. First is storing the reversed order of ```
 Example 1:
 ```grep -i "Office" technical/government/Gen_Account_Office/og98030.txt```
 This command prints all lines from _technical/government/Gen_Account_Office/og98030.txt_ that exclude the word "Office".
+<img width="708" alt="Screen Shot 2023-11-04 at 2 17 37 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/3251a04c-eb16-4d73-a2f7-f4817a0781d3">
+The line _Office of the General Counsel_ is appeared in the output.
 
+Example 2:
+```grep -v "whistleblowing" technical/plos/pmed.0020281.txt```
+This command prints all lines from _technical/government/Gen_Account_Office/og98030.txt_ that exclude the word "Office".
+<img width="808" alt="Screen Shot 2023-11-04 at 2 26 22 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/506575a6-0d0e-4028-afaa-553a37783484">
+The line _whistleblowing—as discussed, in part, in_ and _For me, whistleblowing is..._ are not appeared in the output.
 
-It is useful when we want to exclude something while searching in the file.
+This command option is useful when we want to exclude something while searching in the file, especially we know what we don't want to be included in the output.
 
 3. -v
 
