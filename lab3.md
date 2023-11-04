@@ -70,6 +70,7 @@ There is no symptom in the second test and it runs "perfectly."
 ```
 
 The array ```newArray``` was created but never used to store the reversed array. The error was storing elements from ```newArrray``` which is an empty array into ```arr``` which stores the original array, and return ```arr```. What the original code did is coying the empty array ```newArrray``` in reversed order to ```arr```, and therefore, the function would just return an empty array.
+
 Two changes are made in the new code. First is storing the reversed order of ```arr``` to the targeted array ```newArray```. Here, the elements from the original array ```arr``` won't be messed up and everything is stored correctly to ```newArray``` in backward. Secondly, the function returns the modified new array ```newArray``` instead of the orignial array. Overall, the changes allow the function to store the reversed array into a temporary array and return the temporary array.
 
 
