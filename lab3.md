@@ -75,3 +75,21 @@ Two changes are made in the new code. First is storing the reversed order of ```
 
 
 ## Part 2
+
+**grep**
+
+1. -v
+```grep -i <str> <file>``` prints all the lines from the file that don't contain the given string.
+
+Example 1:
+```grep -i "Office" technical/government/Gen_Account_Office/og98030.txt```
+This command prints all lines from _technical/government/Gen_Account_Office/og98030.txt_ that exclude the word "Office".
+
+
+It is useful when we want to exclude something while searching in the file.
+
+3. -v
+
+4. -w
+
+5. -x
