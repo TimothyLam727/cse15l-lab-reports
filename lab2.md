@@ -78,6 +78,10 @@ Path to the private key of my SSH key: **~/.ssh/id_rsa**
 
 Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
 
+![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/1c505e6d-6005-4e5b-8fa6-c95f3e7d9536)
+
+The path of the public key in my ieng6 account is /home/linux/ieng6/cs15fa23/cs15lfa23ju/.ssh/id_rsa/pub
+
 ![Screenshot 2023-11-04 232152](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/cacf1571-ec99-47ae-9e75-99cd9c3513ff)
 ![Screenshot 2023-11-04 232222](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/baf1f890-030b-430b-8985-db30c79d36b3)
 
