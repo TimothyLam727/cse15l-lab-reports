@@ -87,6 +87,7 @@ Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
 
 
 Somehow I was able to upload **id_rsa** and **id_rsa.pub** to my remote server, but I wasn't able to access them in the terminal.
+The public key should end up in the file **.ssh**. The path to the file of the public key is **/home/linux/ieng6/cs15lfa23/cs15lfa23ju/.ssh/id_rsa_pub**.
 
 ## Part 3
 Something I have learned from lab in week 2 is how to access the ieng6 and pi-cluster server using the ssh command, and how to interact with server by changing some of the parts of the url.
