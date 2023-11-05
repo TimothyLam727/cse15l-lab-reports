@@ -73,11 +73,11 @@ Screenshot of content of my .ssh directory:
 
 
 
-<img width="726" alt="Screen Shot 2023-11-04 at 10 48 20 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/335c2ca2-d367-429c-a7c3-e2884e5552c7">
-
 Path to the private key of my SSH key: **~/.ssh/id_rsa**
 
 Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
+
+<img width="726" alt="Screen Shot 2023-11-04 at 10 48 20 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/fa493e99-f9e1-4efd-9385-de2dc2108c43">
 
 
 ## Part 3
