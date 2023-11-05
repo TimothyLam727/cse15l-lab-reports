@@ -78,8 +78,10 @@ Path to the private key of my SSH key: **~/.ssh/id_rsa**
 
 Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
 
-<img width="726" alt="Screen Shot 2023-11-04 at 10 48 20 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/fa493e99-f9e1-4efd-9385-de2dc2108c43">
+![Screenshot 2023-11-04 231810](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/29cb5a54-942a-45ac-8db6-754250f9d756)
+![Screenshot 2023-11-04 231919](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/92e9350a-e227-4ec0-8861-4ff93731dc37)
 
+Somehow I was able to upload **id_rsa** and **id_rsa.pub** to my remote server, but I wasn't able to access them in the terminal.
 
 ## Part 3
 Something I have learned from lab in week 2 is how to access the ieng6 and pi-cluster server using the ssh command, and how to interact with server by changing some of the parts of the url.
