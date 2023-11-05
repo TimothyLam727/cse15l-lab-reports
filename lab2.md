@@ -73,6 +73,7 @@ Screenshot of content of my .ssh directory:
 
 
 
+
 Path to the private key of my SSH key: **~/.ssh/id_rsa**
 
 Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
