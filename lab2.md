@@ -78,8 +78,13 @@ Path to the private key of my SSH key: **~/.ssh/id_rsa**
 
 Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
 
-![Screenshot 2023-11-04 231810](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/29cb5a54-942a-45ac-8db6-754250f9d756)
-![Screenshot 2023-11-04 231919](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/92e9350a-e227-4ec0-8861-4ff93731dc37)
+![Screenshot 2023-11-04 232152](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/cacf1571-ec99-47ae-9e75-99cd9c3513ff)
+![Screenshot 2023-11-04 232222](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/baf1f890-030b-430b-8985-db30c79d36b3)
+
+
+![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/ceedd035-99c9-441c-b712-503350eff2bc)
+
+
 
 Somehow I was able to upload **id_rsa** and **id_rsa.pub** to my remote server, but I wasn't able to access them in the terminal.
 
