@@ -82,17 +82,6 @@ Path to the public key of my SSH key: **~/.ssh/id_rsa.pub**
 
 The path of the public key in my ieng6 account is /home/linux/ieng6/cs15fa23/cs15lfa23ju/.ssh/id_rsa/pub
 
-![Screenshot 2023-11-04 232152](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/cacf1571-ec99-47ae-9e75-99cd9c3513ff)
-![Screenshot 2023-11-04 232222](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/baf1f890-030b-430b-8985-db30c79d36b3)
-
-
-![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/ceedd035-99c9-441c-b712-503350eff2bc)
-
-
-
-Somehow I was able to upload **id_rsa** and **id_rsa.pub** to my remote server, but I wasn't able to access them in the terminal.
-The public key should end up in the file **.ssh**. The path to the file of the public key is **/home/linux/ieng6/cs15lfa23/cs15lfa23ju/.ssh/id_rsa_pub**.
-
 ## Part 3
 Something I have learned from lab in week 2 is how to access the ieng6 and pi-cluster server using the ssh command, and how to interact with server by changing some of the parts of the url.
 
