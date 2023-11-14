@@ -1,6 +1,8 @@
 4. Log into ieng6
 
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/e2010262-269e-4f2e-832c-9d69dd03e758)
+   ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/e7d8a465-a6cc-4f0c-a4d0-4766523651da)
+
 
    _key pressed:_ _ssh cs15lfa23ju@ieng6.ucsd.edu_, _<enter>_
 
