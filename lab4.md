@@ -8,7 +8,8 @@
 
 6. Clone your fork of the repository from your Github account (using the SSH URL)
 
-   
+   ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c668373b-edae-4ec6-b235-d9c197d6308e)
+
 
 7. Run the tests, demonstrating that they fail
 
