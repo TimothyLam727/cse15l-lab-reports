@@ -10,7 +10,7 @@
 
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c668373b-edae-4ec6-b235-d9c197d6308e)
 
-   key pressed: **git** <<e>space<e>> **clone** <<e>space<e>> **git@github.com:TimothyLam727/lab7.git**, <<e>Enter<e>>, **my github passphrase**
+   key pressed: g i t <<e>space<e>> c l o n e <<e>space<e>> **git@github.com:TimothyLam727/lab7.git**, <<e>Enter<e>>, **my github passphrase**
 
    _git@github.com:TimothyLam727/lab7.git is the SSH URL of my forked repository_
 
@@ -18,6 +18,7 @@
 
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f13c600a-2377-41ef-9a15-2e2a7c056dbd)
 
+   key pressed: c d <<e>space<e>> **lab7** <<e>Enter<e>> j a v a c <<e>space<e>> ****-cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java****
 
 9. Edit the code file to fix the failing test
 
