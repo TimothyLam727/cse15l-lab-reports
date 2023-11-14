@@ -1,7 +1,7 @@
 4. Log into ieng6
 
 
-   _key pressed:_ _ssh cs15lfa23ju@ieng6.ucsd.edu_, _<"Enter">_
+   _key pressed:_ _ssh cs15lfa23ju@ieng6.ucsd.edu_, _<enter>_
 
 6. Clone your fork of the repository from your Github account (using the SSH URL)
 
