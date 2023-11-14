@@ -4,7 +4,7 @@
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/e7d8a465-a6cc-4f0c-a4d0-4766523651da)
 
 
-   key pressed: ssh cs15lfa3ju@ieng6.ucsd.edu, </Enter>, my password, <<Enter></Enter>
+   key pressed: ssh cs15lfa3ju@ieng6.ucsd.edu, </Enter>, my password, <<Enter>Enter</Enter>
 
 6. Clone your fork of the repository from your Github account (using the SSH URL)
 
