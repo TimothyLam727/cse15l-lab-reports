@@ -18,9 +18,11 @@
 
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f13c600a-2377-41ef-9a15-2e2a7c056dbd)
 
-   key pressed: c d <<e>space<e>> **lab7** <<e>Enter<e>>, j a v a c <<e>space<e>> _-cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java_ <<e>Enter<e>>, j a v a _-cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples_ <<e>Enter<e>>
+   key pressed: c d <<e>space<e>> **lab7** <<e>Enter<e>>, j a v a c <<e>space<e>> _-cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java_ <<e>Enter<e>>,
+   j a v a _-cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples_ <<e>Enter<e>>
 
-   
+   - the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` compiles all the .java files with JUnit in the directory lab7
+   - the command ``` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java org.junit.runner.JUnitCore ListExamples``` runs the tests
 
 9. Edit the code file to fix the failing test
 
