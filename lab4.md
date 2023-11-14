@@ -6,7 +6,7 @@
 
    key pressed: **ssh** **cs15lfa3ju@ieng6.ucsd.edu**, <<e>Enter<e>>, **my password**, <<e>Enter<e>>
 
-6. Clone your fork of the repository from your Github account (using the SSH URL)
+5. Clone your fork of the repository from your Github account (using the SSH URL)
 
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c668373b-edae-4ec6-b235-d9c197d6308e)
 
@@ -14,7 +14,9 @@
 
    _git@github.com:TimothyLam727/lab7.git is the SSH URL of my forked repository_
 
-8. Run the tests, demonstrating that they fail
+6. Run the tests, demonstrating that they fail
+
+   ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f13c600a-2377-41ef-9a15-2e2a7c056dbd)
 
 
 9. Edit the code file to fix the failing test
