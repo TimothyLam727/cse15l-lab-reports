@@ -10,16 +10,18 @@
 
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c668373b-edae-4ec6-b235-d9c197d6308e)
 
-   key pressed: **git** <<e>space<e>> **clone** <<e>space<e>> **git@github.com:TimothyLam727/lab7.git**, <<e>Enter<e>>, **my github passphrase** 
+   key pressed: **git** <<e>space<e>> **clone** <<e>space<e>> **git@github.com:TimothyLam727/lab7.git**, <<e>Enter<e>>, **my github passphrase**
 
-7. Run the tests, demonstrating that they fail
+   _git@github.com:TimothyLam727/lab7.git is the SSH URL of my forked repository_
 
-
-8. Edit the code file to fix the failing test
-
-
-9. Run the tests, demonstrating that they now succeed
+8. Run the tests, demonstrating that they fail
 
 
-10. Commit and push the resulting change to your Github account (you can pick any commit message!)
+9. Edit the code file to fix the failing test
+
+
+10. Run the tests, demonstrating that they now succeed
+
+
+11. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
