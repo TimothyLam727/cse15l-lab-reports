@@ -90,7 +90,11 @@ Example 1:
 
 This command line prints all lines from _technical/government/Gen_Account_Office/og98030.txt_ that exclude the word "Office".
 
-<img width="708" alt="Screen Shot 2023-11-04 at 2 17 37 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/3251a04c-eb16-4d73-a2f7-f4817a0781d3">
+<img width="863" alt="Screen Shot 2023-11-18 at 12 42 21 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/dc778cbe-8ae1-4f5b-8a48-aa919c2d4cb4">
+<img width="703" alt="Screen Shot 2023-11-18 at 12 42 37 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/4caee61d-f9ae-48f5-bcaf-27daad6fdf52">
+<img width="485" alt="Screen Shot 2023-11-18 at 12 42 50 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/791c6254-09cb-4310-ad7d-c0d65104c467">
+
+
 
 The line "Office of the General Counsel" is not appeared in the output.
 
