@@ -44,8 +44,8 @@
 
    - the command ```vim ListExamples.java``` opens the vim text editor for the java file **ListExamples.java**.
    - Then, the command ```/index1``` searches for the appearances of **index1** in the file. By clicking ```n``` 10 times, it brings the cursor to the line where **index1** needs to be changed to **index2**.
-   - 
-   - 
+   - the command ```i``` switches the text editor from normal mode to insert mode which I can start editing the file. ```<<e>backspace<e>> 2``` allows me to replace the **index1** to  **index2**.
+   - Lastly, the command ```<<e>esc<e>> :wq <<e>enter<e>>``` exits insert mode and changes back to normal mode, and saves and quits vim.
    
 11. Run the tests, demonstrating that they now succeed
 
