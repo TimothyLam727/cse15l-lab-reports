@@ -30,9 +30,11 @@
    <img width="396" alt="Screen Shot 2023-11-17 at 11 05 55 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f99273a0-084a-423a-99d7-22801458904e">
 
    **Before code change:**
+   
    <img width="634" alt="Screen Shot 2023-11-17 at 11 07 21 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c7096d02-8287-4c49-a966-fd4c93c9eaec">
 
    **After code change:**
+   
    <img width="613" alt="Screen Shot 2023-11-17 at 11 08 20 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f560fe48-bc99-4875-8d80-6240ad87f6fd">
 
 
