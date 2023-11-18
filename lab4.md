@@ -7,7 +7,7 @@
 
    - the command ```ssh``` login to my remote account
 
-6. Clone your fork of the repository from your Github account (using the SSH URL)
+5. Clone your fork of the repository from your Github account (using the SSH URL)
 
    ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/c668373b-edae-4ec6-b235-d9c197d6308e)
 
@@ -17,7 +17,7 @@
    - the command ```git clone``` clones the **lab7** respository from my github account to my ieng6 account
    - **git@github.com:TimothyLam727/lab7.git** is the SSH URL of my forked repository
 
-7. Run the tests, demonstrating that they fail
+6. Run the tests, demonstrating that they fail
 
    <img width="974" alt="Screen Shot 2023-11-17 at 11 32 10 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/6cc0b9f0-00d5-4c5d-b385-f1247ddd27ab">
    
@@ -29,7 +29,7 @@
    - the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` compiles all the .java files with JUnit in the directory lab7
    - the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java org.junit.runner.JUnitCore ListExamples``` runs the tests
 
-9. Edit the code file to fix the failing test
+7. Edit the code file to fix the failing test
 
    <img width="396" alt="Screen Shot 2023-11-17 at 11 05 55 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f99273a0-084a-423a-99d7-22801458904e">
 
@@ -49,7 +49,7 @@
    - the command ```i``` switches the text editor from normal mode to insert mode which I can start editing the file. ```<<e>backspace<e>> 2``` allows me to replace the **index1** to  **index2**.
    - Lastly, the command ```<<e>esc<e>> :wq <<e>enter<e>>``` exits insert mode and changes back to normal mode, and saves and quits vim.
    
-11. Run the tests, demonstrating that they now succeed
+8. Run the tests, demonstrating that they now succeed
 
    <img width="971" alt="Screen Shot 2023-11-18 at 12 02 07 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/190e37e5-8758-4928-8fd9-269588675878">
 
@@ -59,7 +59,7 @@
    - the ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 3 up in the search history, so I used up arrow to acces it.
    - Then, the ``` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java org.junit.runner.JUnitCore ListExamples``` was 3 up in the history, so I accesed and ran it in the same way.
 
-12. Commit and push the resulting change to your Github account (you can pick any commit message!)
+9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
    <img width="581" alt="Screen Shot 2023-11-18 at 12 07 55 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/22be0710-68c4-44f0-a1b4-13492c2782fe">
 
