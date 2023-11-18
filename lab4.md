@@ -24,7 +24,7 @@
 
    - the command ```cd lab7``` changes the working directory to **lab7/**
    - the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` compiles all the .java files with JUnit in the directory lab7
-   - the command ``` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java org.junit.runner.JUnitCore ListExamples``` runs the tests
+   - the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java org.junit.runner.JUnitCore ListExamples``` runs the tests
 
 9. Edit the code file to fix the failing test
 
@@ -58,3 +58,10 @@
 
 12. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
+   <img width="581" alt="Screen Shot 2023-11-18 at 12 07 55 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/22be0710-68c4-44f0-a1b4-13492c2782fe">
+
+
+   key pressed: ```git add ListExamples.java <<e>enter<e>>```, ```git commit -m "index1->index2" <<e>enter<e>>```, ```git push <<e>enter<e>>```, **my github passphrase** ```<<e>enter<e>>```
+
+   - the ```git add``` command "stages" the file **ListExamples.java** ot be part of the next commit, and then the command ```git commit -m "index1->index2"``` creates a commit locally for the staged file and also writes the commit message "index1->index2".
+   - Lastly, the command ```git push``` copies the new command to Github.
