@@ -60,6 +60,8 @@
 
    <img width="581" alt="Screen Shot 2023-11-18 at 12 07 55 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/22be0710-68c4-44f0-a1b4-13492c2782fe">
 
+   <img width="1304" alt="Screen Shot 2023-11-18 at 12 13 24 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/109b5f59-7a55-411e-b96c-a309686e275a">
+
 
    key pressed: ```git add ListExamples.java <<e>enter<e>>```, ```git commit -m "index1->index2" <<e>enter<e>>```, ```git push <<e>enter<e>>```, **my github passphrase** ```<<e>enter<e>>```
 
