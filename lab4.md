@@ -27,6 +27,9 @@
 
 9. Edit the code file to fix the failing test
 
+   <img width="396" alt="Screen Shot 2023-11-17 at 11 05 55 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f99273a0-084a-423a-99d7-22801458904e">
+
+
    key pressed: /index2 <<e>enter<e>>, nnnnnnnnn, <<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>>, i <<e>backspace<e>> 2, <<e>esc<e>> :wq <<e>enter<e>>
 
 
