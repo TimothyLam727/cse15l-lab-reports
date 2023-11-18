@@ -103,7 +103,7 @@ Example 2:
 
 This command line prints all lines from _technical/plos/pmed.0020281.txt_ that exclude the word "whistleblowing".
 
-<img width="808" alt="Screen Shot 2023-11-04 at 2 26 22 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/506575a6-0d0e-4028-afaa-553a37783484">
+<img width="740" alt="Screen Shot 2023-11-18 at 12 44 40 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/01e0871e-005e-4254-bb1a-369637c1d425">
 
 The line "whistleblowing—as discussed, in part, in" and "For me, whistleblowing is..." are not appeared in the output.
 
@@ -144,11 +144,13 @@ _source cited from https://www.gnu.org/savannah-checkouts/gnu/grep/manual/grep.h
 ```grep -R <str> <dir>``` prints all the lines from the files of the directory that contain the string.
 
 Example 1:
-```grep -R " line 911" technical/911report```
+```grep -R "911" technical/911report```
 
 This command prints all the lines from file in the directory _technical/911report_ that contain the string "911".
 
-<img width="999" alt="Screen Shot 2023-11-04 at 3 26 37 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/a94732d7-07ac-455e-a774-b6c1cfa053b4">
+<img width="993" alt="Screen Shot 2023-11-18 at 12 47 03 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/bb3d965d-2916-47da-a550-9c92b985c604">
+<img width="947" alt="Screen Shot 2023-11-18 at 12 47 24 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/738e804a-81ad-477c-9094-64538bcc9472">
+
 
 Lines from _technical/911report/chapter-9.txt_ and _technical/911report/chapter-13.5.txt_ from the directory _911report_ containing the string "911" are printed.
 
