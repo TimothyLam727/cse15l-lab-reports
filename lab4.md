@@ -16,7 +16,8 @@
 
 6. Run the tests, demonstrating that they fail
 
-   ![image](https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f13c600a-2377-41ef-9a15-2e2a7c056dbd)
+   <img width="974" alt="Screen Shot 2023-11-17 at 11 32 10 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/6cc0b9f0-00d5-4c5d-b385-f1247ddd27ab">
+   
 
    key pressed: ```cd <<e>space<e>> lab7 <<e>Enter<e>>```, ```javac <<e>space<e>> -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <<e>Enter<e>>```,
    ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples <<e>Enter<e>>```
@@ -38,9 +39,14 @@
    <img width="613" alt="Screen Shot 2023-11-17 at 11 08 20 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/f560fe48-bc99-4875-8d80-6240ad87f6fd">
 
 
-   key pressed: ```vim ListExamples.java```, ```/index2 <<e>enter<e>>```, ```nnnnnnnnn```, ```<<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>>```, ```i <<e>backspace<e>> 2```, ```<<e>esc<e>> :wq <<e>enter<e>>```
+   key pressed: ```vim ListExamples.java```, ```/index1 <<e>enter<e>>```, ```nnnnnnnnnn```, ```<<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>>```, ```i <<e>backspace<e>> 2```, ```<<e>esc<e>> :wq <<e>enter<e>>```
 
 
+   - the command ```vim ListExamples.java``` opens the vim text editor for the java file **ListExamples.java**.
+   - Then, the command ```/index1``` searches for the appearances of **index1** in the file. By clicking ```n``` 10 times, it brings the cursor to the line where **index1** needs to be changed to **index2**.
+   - 
+   - 
+   
 11. Run the tests, demonstrating that they now succeed
 
 
