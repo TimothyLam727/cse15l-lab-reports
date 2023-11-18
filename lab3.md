@@ -80,7 +80,7 @@ Two changes are made in the new code. First is storing the reversed order of ```
 
 
 1. -v
-_source cited from (https://linuxcommand.org/lc3_man_pages/grep1.html) for both examples_
+_source cited from https://linuxcommand.org/lc3_man_pages/grep1.html for both examples_
 
 ```grep -v <str> <file>``` prints all the lines from the file that don't contain the given string.
 
@@ -106,7 +106,7 @@ The line "whistleblowing—as discussed, in part, in" and "For me, whistleblowin
 
 
 2. -w
-_source cited from (https://linuxcommand.org/lc3_man_pages/grep1.html) for both examples_
+_source cited from https://linuxcommand.org/lc3_man_pages/grep1.html for both examples_
 
 ```grep -w <str> <file>``` prints all the lines from the file containing matches that form whole word **str**.
 
