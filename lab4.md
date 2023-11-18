@@ -27,7 +27,7 @@
 
 9. Edit the code file to fix the failing test
 
-   key pressed: j 44, <<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>>, i <<e>backspace<e>> 2, <<e>esc<e>> : w q <<e>enter<e>>
+   key pressed: / index2 <<e>enter<e>>, n n n n n n n n n, <<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>>, i <<e>backspace<e>> 2, <<e>esc<e>> : w q <<e>enter<e>>
 
 
 10. Run the tests, demonstrating that they now succeed
