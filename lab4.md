@@ -41,7 +41,6 @@
 
    key pressed: ```vim ListExamples.java```, ```/index1 <<e>enter<e>>```, ```nnnnnnnnnn```, ```<<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>><<e>right<e>>```, ```i <<e>backspace<e>> 2```, ```<<e>esc<e>> :wq <<e>enter<e>>```
 
-
    - the command ```vim ListExamples.java``` opens the vim text editor for the java file **ListExamples.java**.
    - Then, the command ```/index1``` searches for the appearances of **index1** in the file. By clicking ```n``` 10 times, it brings the cursor to the line where **index1** needs to be changed to **index2**.
    - the command ```i``` switches the text editor from normal mode to insert mode which I can start editing the file. ```<<e>backspace<e>> 2``` allows me to replace the **index1** to  **index2**.
@@ -49,6 +48,13 @@
    
 11. Run the tests, demonstrating that they now succeed
 
+   <img width="971" alt="Screen Shot 2023-11-18 at 12 02 07 AM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/190e37e5-8758-4928-8fd9-269588675878">
+
+
+   key pressed: ```<<e>up<e>><<e>up<e>><<e>up<e>><<e>enter<e>>, <<e>up<e>><<e>up<e>><<e>up<e>><<e>enter<e>>```
+
+   - the ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 3 up in the search history, so I used up arrow to acces it.
+   - Then, the ``` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java org.junit.runner.JUnitCore ListExamples``` was 3 up in the history, so I accesed and ran it in the same way.
 
 12. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
