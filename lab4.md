@@ -1,3 +1,6 @@
+# Lab Report 3
+Wai Taing Lam A18089070
+
 4. Log into ieng6
 
    <img width="800" alt="Screen Shot 2023-11-17 at 11 30 53 PM" src="https://github.com/TimothyLam727/cse15l-lab-reports/assets/146874935/982a2972-48f9-43f9-a42f-2b81855d549f">
