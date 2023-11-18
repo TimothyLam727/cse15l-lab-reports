@@ -80,6 +80,7 @@ Two changes are made in the new code. First is storing the reversed order of ```
 
 
 1. -v
+
 _source cited from https://linuxcommand.org/lc3_man_pages/grep1.html for both examples_
 
 ```grep -v <str> <file>``` prints all the lines from the file that don't contain the given string.
@@ -106,6 +107,7 @@ The line "whistleblowing—as discussed, in part, in" and "For me, whistleblowin
 
 
 2. -w
+
 _source cited from https://linuxcommand.org/lc3_man_pages/grep1.html for both examples_
 
 ```grep -w <str> <file>``` prints all the lines from the file containing matches that form whole word **str**.
@@ -132,6 +134,7 @@ Lines including the word "United", "with", "committed" and more are not included
 
 
 3. -R
+
 _source cited from https://www.gnu.org/savannah-checkouts/gnu/grep/manual/grep.html for both examples_
 
 ```grep -R <str> <dir>``` prints all the lines from the files of the directory that contain the string.
@@ -159,6 +162,7 @@ Lines containing the string "911" from multiple files in the _technical/biomed_ 
 
 
 4. -c
+
 _source cited from https://www.gnu.org/savannah-checkouts/gnu/grep/manual/grep.html for both examples_
 
 ```grep -c <str> <dir>``` counts and prints the number of lines containing the word in the file.
