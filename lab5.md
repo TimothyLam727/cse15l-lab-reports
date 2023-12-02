@@ -210,4 +210,5 @@ public class TestListExamples {
 }
 ```
 
-## Part 2
+## Part 2 - Reflection
+I have learned a lot during lab time. I have learned to debug with the Java Debugger JDB which saves me a lot of time finding the bugs from my java code in the terminal. Besides, I have learned how to push my editted code to Github and I find it really helpful and convenient. The autograder through bash script is really cool as well. I have never though about that the grading of coding assignments could be done in such way.
